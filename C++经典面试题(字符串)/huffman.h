@@ -23,9 +23,7 @@ aaccdddbacbcddddddd	  011011000011101001100010001111111
 #ifdef __cplusplus
 extern "C" {
 #endif
-
-
-
+	void Test(const char* str);
 #ifdef __cplusplus
 }
 #endif

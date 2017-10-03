@@ -5,7 +5,7 @@
 #include<new>
 #include<cstdio>
 #include<cstdlib>
-
+#include"huffman.h"
 using namespace std;
 
 
@@ -100,10 +100,8 @@ string_me& string_me::operator=(const string_me &other) {
 
 
 int main() {
-	char* str="yukai";
-	cout << strlen_me(str) << endl;
-	cout << strnlen_s(str,10) << endl;
-	cout << *str << endl;
+	const char* str = "aba";
+	Test(str);
 	return 0;
 }
 void getback(void) {
